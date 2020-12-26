@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="taskchain-nukkit" />
+        <module name="core" />
+        <module name="sponge" />
+        <module name="bukkit" />
+        <module name="taskchain-bukkit" />
+        <module name="taskchain-core" />
+        <module name="taskchain-sponge" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bukkit" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="sponge" target="1.8" />
+      <module name="taskchain" target="1.8" />
+      <module name="taskchain-bukkit" target="1.8" />
+      <module name="taskchain-core" target="1.8" />
+      <module name="taskchain-nukkit" target="1.8" />
+      <module name="taskchain-parent" target="1.8" />
+      <module name="taskchain-sponge" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="taskchain-bukkit" options="-parameters" />
+      <module name="taskchain-core" options="-parameters" />
+      <module name="taskchain-nukkit" options="-parameters" />
+      <module name="taskchain-sponge" options="-parameters" />
+    </option>
+  </component>
+</project>
